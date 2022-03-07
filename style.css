@@ -1,0 +1,172 @@
+*{
+    background-color: rgb(196, 196, 196);
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.one
+{
+    background-color: black;
+    height: 530px;
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 15px;  
+}
+.second
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background: transparent;
+    box-sizing: border-box;
+}
+
+.screen
+{
+    height: 520px;
+    width: 290px;
+    background-color: white;
+    border-radius: 10px; 
+    margin-top: 5px;
+}
+
+.pson
+{
+    height: 15px;
+    width: 15px;
+    background-color: black;
+    position: relative;
+    left: 132.5px;
+    border-radius: 50%;
+    top: -5px;
+
+}
+#menuBar
+{
+    height: 50px;
+    width: 300px;
+    background: transparent;
+}
+#abc {
+    width:  0;
+    height:  0;
+    border-left: 23px solid white;
+    border-right: 23px solid white;
+    border-bottom: 40px solid rgb(255, 0, 0);
+    transform: rotate(90deg);
+    position: relative;
+    top: 230px;
+    left: 120px;
+    cursor: pointer;
+  }
+  #imag
+  {
+      position: relative; 
+      top: -60px;
+      left: -100px;
+      display: none;
+      /* width: 95%; */
+      width: 280px;
+      transform: rotate(-90deg);
+  }
+  #cross
+  {
+      height: 50px;
+      float: right;
+      background: none;
+      border-radius: 10px;
+      position: relative;
+      color: white;
+      font-size: 40px;
+      top: 15px;
+      left: 2px;
+      cursor:pointer;
+
+  }
+#dot
+{
+    background-color: rgb(36, 36, 36);
+    height: 500px;
+    width: 30px;
+    margin-top: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    position: relative;
+    left: -36px;
+    
+    display: none;
+}
+ #open
+ {
+     color: black;
+     font-size: 40px;
+     position: relative;
+     background: none;
+     left: -5px;
+     top: 45px;
+     cursor: pointer;
+     height: 0px;
+ }
+ #mnmz
+ {
+     height: 0px;
+     background: none;
+     font-size: 25px;
+     background-color: white;
+     position: relative;
+     top: 50px;
+     left: -20px;
+     cursor: pointer;
+     color: white;
+ }
+ #dspl
+ {
+     height: 30px;
+     width: 50px;
+     background-color: black;
+     border-radius: 25%;
+     position: absolute;
+     right: 10px;
+     top: 10px;
+     display: flex;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     color: white;
+     cursor: pointer;
+ }
+ #home
+ {
+     font-size: 50px;
+     color: white;
+     background: none;
+     height: 0;
+     position: relative;
+     left: -48px;
+     top: 80px;
+     cursor: pointer;
+ }
+ #phone
+ {
+     display: none;
+ }
+
+ .newone
+ {
+     animation: 1s aniam ;
+     animation-iteration-count: 1;
+
+ }
+ @keyframes aniam
+ {
+     0%{box-shadow: 0 0 10px blue;}
+     50%{box-shadow: 0 0 20px blue;}
+     75%{box-shadow: 0 0 10px blue;}
+     100%{box-shadow: 0 0 0 blue;}
+ }
